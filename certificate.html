@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Certificate</title>
     <style>
-        .certificate-details {
+        .certificate-container {
+            width: 638px; /* Container width */
+            height: 218px; /* Container height */
             font-family: Arial, Helvetica, sans-serif; /* Font family */
             font-size: 21px; /* Font size */
             color: #222222; /* Font color */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px;
+            box-sizing: border-box; /* Ensure padding is included in the total width and height */
+        }
+        .certificate-container div {
+            margin-bottom: 8px; /* Space between lines */
         }
     </style>
 </head>
 <body>
-    <div class="certificate-details">
-        Certificate ID: FSP/2024/7/10184523<br>
-        Candidate: E Nithya Santhosh<br>
-        Assessment Name: Digital 101 – 30 Hours<br>
-        Candidate Email: enithyasanthosh@gmail.com<br>
-        Date of Issue: 06/07/2024<br>
-        Percentage Marks Overall: 92.00<br>
+    <div class="certificate-container">
+        <div>Certificate ID: FSP/2024/7/10184523</div>
+        <div>Candidate: E Nithya Santhosh</div>
+        <div>Assessment Name: Digital 101 – 30 Hours</div>
+        <div>Candidate Email: enithyasanthosh@gmail.com</div>
+        <div>Date of Issue: 06/07/2024</div>
+        <div>Percentage Marks Overall: 92.00</div>
     </div>
 </body>
 </html>
